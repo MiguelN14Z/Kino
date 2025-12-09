@@ -22,10 +22,10 @@ class MovieCard extends StatelessWidget {
         decoration: BoxDecoration(
           color: cardBackgroundColor,
           borderRadius: BorderRadius.circular(12),
-          border: Border.all(color: Colors.white.withOpacity(0.05)),
+          border: Border.all(color: Colors.white),
           boxShadow: [
             BoxShadow(
-              color: Colors.black.withOpacity(0.5),
+              color: Colors.black,
               blurRadius: 8,
               offset: const Offset(0, 4),
             ),
@@ -80,7 +80,7 @@ class MovieCard extends StatelessWidget {
                             end: Alignment.bottomCenter,
                             colors: [
                               Colors.transparent,
-                              Colors.black.withOpacity(0.6),
+                              Colors.black,
                             ],
                           ),
                         ),

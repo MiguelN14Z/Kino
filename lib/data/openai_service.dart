@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class OpenAIService {
-  final String apiKey = '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'; 
+  final String apiKey = 'YOUR_OPENAI API_KEY_HERE '; 
 
   Future<String> getRecommendations(String prompt) async {
     try {
